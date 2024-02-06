@@ -9,7 +9,7 @@
   "author": "Jim Huang <jim.huang112@gmail.com> (https://jimhuang.dev)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jim876633/docusaurus-plugin-get-doc-create-date"
+    "url": "https://github.com/Jim876633/docusaurus-plugin-get-doc-create-date.git"
   },
   "homepage": "https://github.com/Jim876633/docusaurus-plugin-get-doc-create-date",
   "license": "MIT",
