@@ -1,0 +1,15 @@
+{
+  "name": "docusaurus-plugin-get-docs-create-date",
+  "version": "0.0.1",
+  "description": "A Docusaurus plugin to get the create date of all docs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jim Huang",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "shelljs": "^0.8.5"
+  }
+}
