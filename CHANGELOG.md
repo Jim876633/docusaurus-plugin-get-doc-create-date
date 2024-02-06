@@ -1,3 +1,5 @@
+## [1.0.3](https://github.com/Jim876633/docusaurus-plugin-get-doc-create-date/compare/v1.0.2...v1.0.3) (2024-02-06)
+
 ## [1.0.1](https://github.com/Jim876633/docusaurus-plugin-get-doc-create-date/compare/v1.0.0...v1.0.1) (2024-02-06)
 
 
