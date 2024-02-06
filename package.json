@@ -6,10 +6,23 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Jim Huang",
+  "author": "Jim Huang <jim.huang112@gmail.com> (https://jimhuang.dev)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jim876633/docusaurus-plugin-get-doc-create-date"
+  },
+  "homepage": "https://github.com/Jim876633/docusaurus-plugin-get-doc-create-date",
   "license": "MIT",
+  "keywords": [
+    "docusaurus",
+    "plugin",
+    "create date"
+  ],
   "dependencies": {
     "fs-extra": "^11.2.0",
     "shelljs": "^0.8.5"
+  },
+  "engines": {
+    "node": ">=14.14"
   }
 }
