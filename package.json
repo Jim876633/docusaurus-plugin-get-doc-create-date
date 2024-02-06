@@ -1,6 +1,6 @@
 {
   "name": "docusaurus-plugin-get-docs-create-date",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "A Docusaurus plugin to get the create date of all docs",
   "main": "index.js",
   "scripts": {
