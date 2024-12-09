@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/Jim876633/docusaurus-plugin-get-doc-create-date/compare/v1.0.4...v1.1.0) (2024-12-09)
+
+
+### Features
+
+* enhance plugin to allow custom output filename for docs create date ([6bdd9af](https://github.com/Jim876633/docusaurus-plugin-get-doc-create-date/commit/6bdd9af383e08b4732f5ecdeaf15d7488f04f841))
+
 ## [1.0.4](https://github.com/Jim876633/docusaurus-plugin-get-doc-create-date/compare/v1.0.3...v1.0.4) (2024-02-06)
 
 
