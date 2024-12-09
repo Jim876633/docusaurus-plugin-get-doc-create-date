@@ -6,8 +6,9 @@ module.exports = function (context, options) {
   return {
     name: "docusaurus-plugin-docs-create-date",
     postBuild: async ({ outDir, routes, siteDir }) => {
-      console.log("postBuild");
+      console.log("Generating docs create date...");
 
+      const filename = options.filename || "docsCreateDate";
       // flatten routes
       const docsPathname = getDocsPathname(routes);
 
@@ -21,13 +22,13 @@ module.exports = function (context, options) {
 
       // write to file
       fs.writeFile(
-        `${outDir}/docsCreateDate.json`,
+        `${outDir}/${filename}.json`,
         JSON.stringify(docItems),
         (err) => {
           if (err) {
             console.error("Error writing to file:", err);
           } else {
-            console.log("Content has been written to the file successfully.");
+            console.log("Docs create date generated successfully to ${outDir}/${filename}.json 🎉");
           }
         }
       );
