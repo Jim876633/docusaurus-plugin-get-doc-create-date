@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/Jim876633/docusaurus-plugin-get-doc-create-date/compare/v1.1.0...v1.2.0) (2026-01-14)
+
+
+### Features
+
+* allow customizing filters with ignoreFolderList and ignoreTagList ([b9ae976](https://github.com/Jim876633/docusaurus-plugin-get-doc-create-date/commit/b9ae9761e43a107d571b4e9ae13b334b3e477aa5))
+
 # [1.1.0](https://github.com/Jim876633/docusaurus-plugin-get-doc-create-date/compare/v1.0.4...v1.1.0) (2024-12-09)
 
 
