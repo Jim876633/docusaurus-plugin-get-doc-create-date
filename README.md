@@ -24,10 +24,9 @@ Add the plugin to your `docusaurus.config.js`:
 
 ```javascript
 module.exports = {
-  plugins: ["docusaurus-plugin-get-docs-create-date",],
+  plugins: ["docusaurus-plugin-get-docs-create-date"],
 };
 ```
-
 
 and when you build the site, the create date of the docs json file will be created in the `build` directory as `docsCreateDate.json`.
 
@@ -77,16 +76,20 @@ module.exports = {
     [
       "docusaurus-plugin-get-docs-create-date",
       {
-        filename: "docsCreateDate",
+        filename: "createDate",
+        ignoreFolderList: ["frontend", "archive"],
+        ignoreTagList: ["css"],
       },
     ],
   ],
 };
 ```
 
-| Option | Type | Default | Description |
-|--------|------|---------|-------------|
-| `filename` | `string` | `"docsCreateDate"` | The name of the output file that will be created in the `build` directory. |
+| Option             | Type       | Default            | Description                                                                           |
+| ------------------ | ---------- | ------------------ | ------------------------------------------------------------------------------------- |
+| `filename`         | `string`   | `"docsCreateDate"` | The name of the output file that will be created in the `build` directory.            |
+| `ignoreFolderList` | `string[]` | `[]`               | A list of folder names to ignore. Any docs inside these folders will not be included. |
+| `ignoreTagList`    | `string[]` | `[]`               | A list of tags to ignore. Any docs with these tags will not be included.              |
 
 ## Contributing
 
